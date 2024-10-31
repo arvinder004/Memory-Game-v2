@@ -144,7 +144,7 @@ export default function MemoryGame() {
                 </div>
 
                 {/* result */}
-                {true && <div className="mt-4 text-4xl font-bold text-green-500 bg-white animate-bounce rounded p-1">You Won!</div>}
+                {won && <div className="mt-4 text-4xl font-bold text-green-500 bg-white animate-bounce rounded p-1">You Won!</div>}
 
                 {/* reset and play button */}
                 <button onClick={initializeGame} className="mt-4 px-4 py-2 bg-orange-200 text-black rounded hover:bg-green-600 transition-colors">
