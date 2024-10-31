@@ -81,7 +81,7 @@ export default function MemoryGame() {
     return (
         <>
             <div className="flex flex-col items-center justify-center min-h-screen bg-grey-100 p-4">
-                <h1 className="text-3xl font-bold mb-6 bg-gray-300 p-3 rounded">Memory Game</h1>
+                <h1 className="text-3xl font-bold mb-6 bg-gray-300 p-3 rounded">Test Your Memory</h1>
 
                 {/* input */}
                 <div className="mb-4  bg-orange-200 rounded">
